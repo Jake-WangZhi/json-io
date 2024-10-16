@@ -30,7 +30,6 @@ class AliasTest {
         Set set = new HashSet();
         set.add("foo");
         set.add("bar");
-        set.add("baz");
         set = Collections.unmodifiableSet(set);
 
         WriteOptions writeOptionss = new WriteOptionsBuilder().build();
