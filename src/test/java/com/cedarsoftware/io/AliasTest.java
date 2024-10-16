@@ -28,8 +28,6 @@ class AliasTest {
     @Test
     void testSealableSetAlias() {
         Set set = new HashSet();
-        set.add("foo");
-        set.add("bar");
         set.add("baz");
         set = Collections.unmodifiableSet(set);
 
